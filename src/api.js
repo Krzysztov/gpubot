@@ -40,9 +40,9 @@ function getRequest () {
 
 getRequest();
 
-setInterval(getRequest, 5000);
+setInterval(getRequest, 100000);
 
-app.listen(port, () => {
+app.listen(port || 3000, () => {
     console.log('server is running');
 })
 
