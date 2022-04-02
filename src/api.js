@@ -9,6 +9,7 @@ const port = 3000;
 
 const bot  = new TeleBot('5106718787:AAHtj2WJ88m0Ep2_FmVYdfJGEPzL4ox-RUk');
 
+bot.on('text', (msg) => msg.reply.text("żyję"));
 bot.start();
 
 
